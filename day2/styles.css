@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin: 0px; /*removes white space*/
+}
+h1{
+    background-color: #0099ff; /*same color as svg*/
+    margin: 0px; /*remove white space*/
+    padding-top: 38px; /*creates space with color*/
+}
+.footer{
+    background-color: #0099ff;
+    position: fixed; /*put footer at bottom of page:*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.section1{
+    display: inline-block;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    margin-top: 0px;
+}
+.section2{
+    display: inline-block;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 1.5em; /*default user agent stylesheet font size for 2nd h tag*/
+}
