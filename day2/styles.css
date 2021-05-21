@@ -29,8 +29,14 @@ h2{
     text-align: right;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 h3{
     font-size: 1.5em; /*default user agent stylesheet font size for 2nd h tag*/
+}
+.column{
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    height: 300px;
 }
