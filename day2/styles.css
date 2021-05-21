@@ -39,4 +39,20 @@ h3{
     width: 250px;
     padding: 10px;
     height: 300px;
+    margin-bottom: 100px;
+}
+@media (max-width: 1024px) {
+    h1 {
+        background-color: lightblue;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        background-color: lightgreen;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        background-color: salmon;
+    }
 }
